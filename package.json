@@ -1,0 +1,20 @@
+{
+  "name": "asana-board-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end tests for the Asana-style demo app (<https://create-asana-like-pr-39y5.bolt.host/>). The suite logs in, opens a project board, and checks that specific cards sit in the expected column with the expected tags.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
